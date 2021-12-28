@@ -86,3 +86,23 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  #homepage-image {
+    display: none;
+  }
+  .app-name,
+  p {
+    text-align: center;
+  }
+  .launch-button {
+    display: block;
+    margin: 0 auto;
+  }
+}
